@@ -1,12 +1,24 @@
-# React + Vite
+🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that interacts with a real-world Movie API to let users search for movies, view details, and add their favorite movies to a personalized list. This project demonstrates the power of React components, hooks, and state management while integrating with external APIs in a real-world use case.
 
-Currently, two official plugins are available:
+🚀 Features
+🔎 Search Movies – Search for movies using a real-time movie database API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+❤️ Add to Favorites – Save movies to a favorites list stored in browser local storage.
 
-## Expanding the ESLint configuration
+🧩 React Components – Modular, reusable components for clean and scalable architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 API Integration – Uses fetch/axios to pull live data from a movie API.
+
+🌐 Responsive UI – Fully mobile-friendly layout with intuitive design.
+
+💾 LocalStorage Support – Persistent favorite movies list, even after page reloads.
+
+🛠️ Tech Stack
+ ->React (Functional Components + Hooks)
+ ->React Router for navigation
+ ->CSS / TailwindCSS for styling
+ ->Movie API (e.g., OMDb API or The Movie Database API)
+ ->LocalStorage for persistent favorites
+
